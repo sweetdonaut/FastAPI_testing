@@ -1,0 +1,53 @@
+Defect Locations on Blurred Edges
+======================================================================
+Challenge: Edges are heavily blurred (sigma=2.5)
+Higher intensity factors needed due to reduced contrast
+
+Defect 1:
+  Bbox: (118, 138, 8, 12)
+  Center: (122, 144)
+  Intensity: ×1.3
+  Local contrast: 146.0
+
+Defect 2:
+  Bbox: (681, 135, 12, 18)
+  Center: (687, 144)
+  Intensity: ×1.4
+  Local contrast: 141.3
+
+Defect 3:
+  Bbox: (393, 259, 12, 19)
+  Center: (399, 268)
+  Intensity: ×1.6
+  Local contrast: 146.7
+
+Defect 4:
+  Bbox: (117, 484, 11, 16)
+  Center: (122, 492)
+  Intensity: ×1.7
+  Local contrast: 150.3
+
+Defect 5:
+  Bbox: (756, 484, 11, 16)
+  Center: (761, 492)
+  Intensity: ×1.8
+  Local contrast: 140.3
+
+Defect 6:
+  Bbox: (470, 607, 8, 12)
+  Center: (474, 613)
+  Intensity: ×1.9
+  Local contrast: 143.2
+
+Defect 7:
+  Bbox: (118, 730, 8, 10)
+  Center: (122, 735)
+  Intensity: ×2.1
+  Local contrast: 141.9
+
+Defect 8:
+  Bbox: (756, 728, 11, 15)
+  Center: (761, 735)
+  Intensity: ×2.2
+  Local contrast: 147.8
+

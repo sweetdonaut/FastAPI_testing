@@ -1,0 +1,60 @@
+Realistic Defect Locations
+======================================================================
+Defects at: Vertical bright strip edge + Bright horizontal band
+
+Defect 1:
+  Bbox (x, y, w, h): (768, 80, 6, 20)
+  Center: (np.int64(771), np.int64(90))
+  Intensity factor: ×1.2
+  Edge contrast: 193.6
+  Local brightness: 227.1
+
+Defect 2:
+  Bbox (x, y, w, h): (768, 239, 7, 15)
+  Center: (np.int64(771), np.int64(246))
+  Intensity factor: ×1.3
+  Edge contrast: 193.0
+  Local brightness: 218.6
+
+Defect 3:
+  Bbox (x, y, w, h): (119, 78, 8, 25)
+  Center: (np.int64(123), np.int64(90))
+  Intensity factor: ×1.4
+  Edge contrast: 190.6
+  Local brightness: 218.1
+
+Defect 4:
+  Bbox (x, y, w, h): (541, 0, 7, 20)
+  Center: (np.int64(544), np.int64(5))
+  Intensity factor: ×1.5
+  Edge contrast: 189.0
+  Local brightness: 220.1
+
+Defect 5:
+  Bbox (x, y, w, h): (540, 82, 8, 17)
+  Center: (np.int64(544), np.int64(90))
+  Intensity factor: ×1.6
+  Edge contrast: 188.4
+  Local brightness: 218.6
+
+Defect 6:
+  Bbox (x, y, w, h): (624, 0, 7, 25)
+  Center: (np.int64(627), np.int64(5))
+  Intensity factor: ×1.7
+  Edge contrast: 186.7
+  Local brightness: 222.9
+
+Defect 7:
+  Bbox (x, y, w, h): (398, 78, 6, 25)
+  Center: (np.int64(401), np.int64(90))
+  Intensity factor: ×1.8
+  Edge contrast: 186.3
+  Local brightness: 216.3
+
+Defect 8:
+  Bbox (x, y, w, h): (335, 79, 9, 23)
+  Center: (np.int64(339), np.int64(90))
+  Intensity factor: ×2.0
+  Edge contrast: 184.4
+  Local brightness: 221.3
+

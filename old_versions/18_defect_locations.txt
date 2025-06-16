@@ -1,0 +1,59 @@
+Defect Locations for challenging_defect_image.jpg
+==================================================
+
+Defect 1:
+  Bbox (x, y, w, h): (7, 464, 9, 21)
+  Top-left: (7, 464)
+  Bottom-right: (16, 485)
+  Center: (np.int64(11), np.int64(474))
+  Brightness: 70.2
+
+Defect 2:
+  Bbox (x, y, w, h): (958, 365, 11, 22)
+  Top-left: (958, 365)
+  Bottom-right: (969, 387)
+  Center: (np.int64(963), np.int64(376))
+  Brightness: 255.0
+
+Defect 3:
+  Bbox (x, y, w, h): (440, 162, 8, 20)
+  Top-left: (440, 162)
+  Bottom-right: (448, 182)
+  Center: (np.int64(444), np.int64(172))
+  Brightness: 76.4
+
+Defect 4:
+  Bbox (x, y, w, h): (951, 510, 10, 18)
+  Top-left: (951, 510)
+  Bottom-right: (961, 528)
+  Center: (np.int64(956), np.int64(519))
+  Brightness: 255.0
+
+Defect 5:
+  Bbox (x, y, w, h): (597, 129, 8, 20)
+  Top-left: (597, 129)
+  Bottom-right: (605, 149)
+  Center: (np.int64(601), np.int64(139))
+  Brightness: 74.3
+
+Defect 6:
+  Bbox (x, y, w, h): (501, 379, 11, 25)
+  Top-left: (501, 379)
+  Bottom-right: (512, 404)
+  Center: (np.int64(506), np.int64(391))
+  Brightness: 255.0
+
+Defect 7:
+  Bbox (x, y, w, h): (369, 390, 9, 20)
+  Top-left: (369, 390)
+  Bottom-right: (378, 410)
+  Center: (np.int64(373), np.int64(400))
+  Brightness: 255.0
+
+Defect 8:
+  Bbox (x, y, w, h): (474, 477, 9, 22)
+  Top-left: (474, 477)
+  Bottom-right: (483, 499)
+  Center: (np.int64(478), np.int64(488))
+  Brightness: 157.9
+

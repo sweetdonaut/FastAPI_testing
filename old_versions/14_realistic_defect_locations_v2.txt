@@ -1,0 +1,65 @@
+Realistic Elliptical Defect Locations v2
+======================================================================
+Defects at: Vertical edge + Narrow bright horizontal band
+Edge margin: 100px excluded from all sides
+
+Defect 1:
+  Bbox (x, y, w, h): (120, 361, 6, 7)
+  Center: (123, 364)
+  Intensity factor: ×1.2
+  Edge contrast: 170.5
+
+Defect 2:
+  Bbox (x, y, w, h): (327, 357, 10, 14)
+  Center: (332, 364)
+  Intensity factor: ×1.3
+  Edge contrast: 170.4
+
+Defect 3:
+  Bbox (x, y, w, h): (473, 360, 6, 8)
+  Center: (476, 364)
+  Intensity factor: ×1.4
+  Edge contrast: 152.2
+
+Defect 4:
+  Bbox (x, y, w, h): (615, 358, 9, 13)
+  Center: (619, 364)
+  Intensity factor: ×1.5
+  Edge contrast: 156.4
+
+Defect 5:
+  Bbox (x, y, w, h): (759, 356, 10, 17)
+  Center: (764, 364)
+  Intensity factor: ×1.6
+  Edge contrast: 155.8
+
+Defect 6:
+  Bbox (x, y, w, h): (901, 359, 8, 11)
+  Center: (905, 364)
+  Intensity factor: ×1.6
+  Edge contrast: 156.2
+
+Defect 7:
+  Bbox (x, y, w, h): (119, 482, 9, 13)
+  Center: (123, 488)
+  Intensity factor: ×1.7
+  Edge contrast: 168.8
+
+Defect 8:
+  Bbox (x, y, w, h): (328, 483, 8, 11)
+  Center: (332, 488)
+  Intensity factor: ×1.8
+  Edge contrast: 153.0
+
+Defect 9:
+  Bbox (x, y, w, h): (473, 484, 6, 9)
+  Center: (476, 488)
+  Intensity factor: ×1.9
+  Edge contrast: 168.6
+
+Defect 10:
+  Bbox (x, y, w, h): (616, 483, 7, 10)
+  Center: (619, 488)
+  Intensity factor: ×2.0
+  Edge contrast: 152.2
+

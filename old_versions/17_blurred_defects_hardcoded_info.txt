@@ -1,0 +1,80 @@
+Heavily Blurred Edge Defects
+================================================================================
+Test image with extreme blur to challenge detection algorithms
+
+Image properties:
+- Base blur: sigma=2.5 (heavy)
+- Final blur: sigma=0.2 (light)
+- Edge margin: 100px
+- Defect intensity range: 1.4-2.5×
+
+
+Defect 1:
+  Bbox: (np.int64(199), 281, np.int64(12), 18)
+  Center: (np.int64(205), 290)
+  Intensity: ×1.4
+  Local contrast: 76.8
+  Band: y=275-305
+
+Defect 2:
+  Bbox: (np.int64(487), 282, np.int64(11), 16)
+  Center: (np.int64(492), 290)
+  Intensity: ×1.5
+  Local contrast: 100.6
+  Band: y=275-305
+
+Defect 3:
+  Bbox: (np.int64(817), 281, np.int64(13), 19)
+  Center: (np.int64(823), 290)
+  Intensity: ×1.6
+  Local contrast: 98.2
+  Band: y=275-305
+
+Defect 4:
+  Bbox: (np.int64(619), 481, np.int64(13), 19)
+  Center: (np.int64(625), 490)
+  Intensity: ×1.8
+  Local contrast: 159.0
+  Band: y=475-505
+
+Defect 5:
+  Bbox: (np.int64(317), 602, np.int64(11), 16)
+  Center: (np.int64(322), 610)
+  Intensity: ×1.9
+  Local contrast: 85.2
+  Band: y=595-625
+
+Defect 6:
+  Bbox: (np.int64(619), 601, np.int64(12), 18)
+  Center: (np.int64(625), 610)
+  Intensity: ×2.0
+  Local contrast: 162.3
+  Band: y=595-625
+
+Defect 7:
+  Bbox: (np.int64(315), 725, np.int64(14), 21)
+  Center: (np.int64(322), 735)
+  Intensity: ×2.1
+  Local contrast: 83.0
+  Band: y=720-750
+
+Defect 8:
+  Bbox: (np.int64(704), 728, np.int64(10), 15)
+  Center: (np.int64(709), 735)
+  Intensity: ×2.3
+  Local contrast: 60.7
+  Band: y=720-750
+
+Defect 9:
+  Bbox: (np.int64(487), 848, np.int64(10), 15)
+  Center: (np.int64(492), 855)
+  Intensity: ×2.4
+  Local contrast: 89.4
+  Band: y=840-870
+
+Defect 10:
+  Bbox: (np.int64(817), 846, np.int64(13), 19)
+  Center: (np.int64(823), 855)
+  Intensity: ×2.5
+  Local contrast: 100.4
+  Band: y=840-870

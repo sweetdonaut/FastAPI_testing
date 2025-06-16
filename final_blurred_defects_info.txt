@@ -1,0 +1,105 @@
+Final Blurred Edge Defects with Accurate Positioning
+================================================================================
+
+This is the final test image with:
+- Correctly detected vertical edges
+- Heavy Gaussian blur (sigma=2.5)
+- Elliptical defects at edge+band intersections
+- 100px margin from borders
+
+
+Defect 1:
+  Position: (np.int64(127), 290)
+  Bbox: (np.int64(121), 281, np.int64(12), 19)
+  Edge type: bright_to_dark
+  Intensity: ×1.4
+  Local contrast: 158.5
+  Band: y=275-305
+
+Defect 2:
+  Position: (np.int64(548), 290)
+  Bbox: (np.int64(542), 281, np.int64(12), 19)
+  Edge type: bright_to_dark
+  Intensity: ×1.5
+  Local contrast: 162.7
+  Band: y=275-305
+
+Defect 3:
+  Position: (np.int64(127), 365)
+  Bbox: (np.int64(123), 358, np.int64(9), 14)
+  Edge type: bright_to_dark
+  Intensity: ×1.6
+  Local contrast: 162.0
+  Band: y=350-380
+
+Defect 4:
+  Position: (np.int64(623), 365)
+  Bbox: (np.int64(617), 356, np.int64(12), 19)
+  Edge type: dark_to_bright
+  Intensity: ×1.7
+  Local contrast: 160.8
+  Band: y=350-380
+
+Defect 5:
+  Position: (np.int64(195), 490)
+  Bbox: (np.int64(190), 482, np.int64(11), 17)
+  Edge type: dark_to_bright
+  Intensity: ×1.8
+  Local contrast: 3.9
+  Band: y=475-505
+
+Defect 6:
+  Position: (np.int64(693), 490)
+  Bbox: (np.int64(688), 482, np.int64(10), 16)
+  Edge type: bright_to_dark
+  Intensity: ×1.9
+  Local contrast: 162.9
+  Band: y=475-505
+
+Defect 7:
+  Position: (np.int64(335), 610)
+  Bbox: (np.int64(330), 602, np.int64(11), 17)
+  Edge type: dark_to_bright
+  Intensity: ×2.0
+  Local contrast: 162.1
+  Band: y=595-625
+
+Defect 8:
+  Position: (np.int64(766), 610)
+  Bbox: (np.int64(761), 602, np.int64(11), 17)
+  Edge type: dark_to_bright
+  Intensity: ×2.1
+  Local contrast: 160.9
+  Band: y=595-625
+
+Defect 9:
+  Position: (np.int64(405), 735)
+  Bbox: (np.int64(401), 729, np.int64(8), 12)
+  Edge type: bright_to_dark
+  Intensity: ×2.2
+  Local contrast: 160.0
+  Band: y=720-750
+
+Defect 10:
+  Position: (np.int64(835), 735)
+  Bbox: (np.int64(831), 729, np.int64(8), 12)
+  Edge type: bright_to_dark
+  Intensity: ×2.3
+  Local contrast: 160.7
+  Band: y=720-750
+
+Defect 11:
+  Position: (np.int64(478), 855)
+  Bbox: (np.int64(474), 849, np.int64(8), 12)
+  Edge type: dark_to_bright
+  Intensity: ×2.4
+  Local contrast: 159.2
+  Band: y=840-870
+
+Defect 12:
+  Position: (np.int64(907), 855)
+  Bbox: (np.int64(902), 847, np.int64(10), 16)
+  Edge type: dark_to_bright
+  Intensity: ×2.5
+  Local contrast: 153.8
+  Band: y=840-870
