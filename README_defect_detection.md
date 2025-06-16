@@ -8,7 +8,7 @@
 
 ## 主要程式檔案
 
-### 1. sem_defect_detector_v1.py - v1 版本（推薦使用）
+### 1. sem_defect_detector_v1.py - 整合版檢測器（主要程式）
 **功能**：
 - 完整的缺陷檢測分析流程
 - 清晰的視覺化展示
@@ -101,6 +101,36 @@ finder.visualize_references(target_bbox, save_path='result.png')
 - 亮度比例：1.580×
 - 判斷：**亮點缺陷**
 
+## 第二階段：壓力測試
+
+### 目的
+評估檢測器在極端條件下的性能，使用更具挑戰性的測試圖片。
+
+### create_final_blurred_defects.py - 創建模糊邊緣缺陷
+**功能**：
+- 創建具有強模糊邊緣的測試圖片
+- 準確的垂直邊緣檢測
+- 橢圓形缺陷（更真實）
+- 高強度缺陷（1.4-2.5×）
+
+**使用方式**：
+```python
+python create_final_blurred_defects.py
+```
+
+**輸出**：
+- `final_blurred_defects.jpg` - 模糊測試圖片
+- `final_blurred_defects_annotated.png` - 標註版本
+- `final_blurred_defects_info.txt` - 缺陷詳細資訊
+
+### 測試挑戰
+1. **強模糊**：sigma=2.5 的高斯模糊
+2. **低對比度**：邊緣非常柔和
+3. **正確位置**：缺陷位於垂直邊緣與水平亮條交界處
+4. **12 個缺陷**：分佈在不同位置和強度
+
 ## 歷史版本
 詳細的開發歷程請參考 `discussion_history.md`
-舊版本程式碼保存在 `old_versions/` 資料夾中（共11個迭代版本）
+舊版本程式碼保存在 `old_versions/` 資料夾中：
+- 01-11：第一階段開發
+- 12-24：第二階段壓力測試（共11個迭代版本）

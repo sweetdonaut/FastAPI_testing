@@ -54,3 +54,27 @@
 - `discussion_history.md` - 完整開發歷程
 - `README_defect_detection.md` - 使用說明
 - `old_versions/` - 歷史版本（共11個迭代，包含原最終版本）
+
+### 第二階段進行中（2024-06-17）- 壓力測試
+
+**目標**：創建更具挑戰性的測試圖片，評估演算法極限
+
+**主要挑戰**：
+1. 邊緣模糊化（高斯模糊 sigma=2.5）
+2. 正確的垂直邊緣檢測
+3. 橢圓形缺陷（更真實）
+4. 需要更高的缺陷強度（1.4-2.5×）
+
+**關鍵突破**：
+- 使用梯度分析準確檢測垂直邊緣
+- 區分 Dark→Bright 和 Bright→Dark 邊緣
+- 在正確的邊緣位置放置缺陷
+
+**最新檔案**：
+- `sem_defect_detector_v1.py` - 整合版檢測器
+- `create_final_blurred_defects.py` - 創建模糊邊緣缺陷
+- `final_blurred_defects.jpg` - 壓力測試圖片
+- `final_blurred_defects_annotated.png` - 標註版本
+
+**中間檔案**：
+所有中間版本已移至 `old_versions/` (12-24)
